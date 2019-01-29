@@ -9,7 +9,7 @@ import java.util.List;
 import static java.util.List.copyOf;
 
 @Component
-public class MemerService {
+public class MemerServiceInjectionBased {
 
     @Autowired
     ApplicationContext applicationContext;
